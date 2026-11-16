@@ -9,4 +9,6 @@
 7. Dashboard, robustness tests, ablations, and report.
 
 Acceptance requires executed notebooks, actual saved metrics, repeatable tests, and
-explicit limitations; file creation alone is not completion.
+explicit limitations; file creation alone is not completion. The current executable
+pipeline is `scripts/run_pipeline.py`; it produces the synthetic offline artifacts
+used by the report and is the source of truth for recorded metrics.

@@ -51,6 +51,10 @@ consequential decision requires explicit human review.
 
 ## Status
 
-This scaffold provides importable starter modules, notebook contracts, configuration,
-local Ollama checks, and validation tooling. Training, experiments, dashboard wiring,
-and final reporting remain staged work.
+The executable synthetic workflow is `python scripts/run_pipeline.py`. It generates
+privacy-safe data, trains Logistic Regression and Random Forest models, evaluates
+Isolation Forest, computes behavioral and graph evidence, writes predictions and
+human-review cases, and checks Ollama with a deterministic fallback. See
+`reports/implementation_audit.md` and `reports/final_report/final_report.md` for
+verified scope and limitations. The notebooks remain the staged JupyterLab interface
+for expanding the experiments; public datasets and Qwen2.5 3B require local inputs.
