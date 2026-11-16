@@ -1,0 +1,12 @@
+{
+  "project_name": "Sentinel-Fin",
+  "random_seed": 42,
+  "offline_mode": true,
+  "synthetic_data_default": true,
+  "paths": {
+    "data": "data",
+    "models": "models",
+    "results": "results",
+    "reports": "reports"
+  }
+}

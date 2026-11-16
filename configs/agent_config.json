@@ -1,0 +1,21 @@
+{
+  "enabled_agents": [
+    "transaction",
+    "supervised",
+    "anomaly",
+    "behavioral",
+    "graph",
+    "risk",
+    "explanation",
+    "human_review"
+  ],
+  "risk_thresholds": {
+    "low": 0.3,
+    "medium": 0.6,
+    "high": 0.8
+  },
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "qwen2.5:3b"
+  }
+}

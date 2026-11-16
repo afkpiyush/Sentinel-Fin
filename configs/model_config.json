@@ -1,0 +1,15 @@
+{
+  "supervised": {
+    "model": "logistic_regression",
+    "threshold": 0.5,
+    "class_weight": "balanced"
+  },
+  "anomaly": {
+    "model": "isolation_forest",
+    "contamination": 0.05
+  },
+  "evaluation": {
+    "test_size": 0.2,
+    "random_state": 42
+  }
+}
